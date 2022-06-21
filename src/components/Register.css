@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form input {
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form label{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.form button{
+    width: 100px;
+    margin-top: 20px;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.form button:hover{
+    background-color: green;
+    border-color: green;
+}
