@@ -13,6 +13,7 @@ button{
 button:hover{
     background-color: green;
     border-color: green;  
+    cursor: pointer;
 }
 
 ul{
